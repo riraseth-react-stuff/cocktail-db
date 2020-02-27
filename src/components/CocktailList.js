@@ -1,5 +1,5 @@
-import React from "react";
+import React from 'react';
 
-export default function CocktailList() {
+export default function CocktailList({ cocktails }) {
   return <h1>cocktailList component</h1>;
 }
