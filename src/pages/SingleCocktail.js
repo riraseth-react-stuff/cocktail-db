@@ -13,7 +13,6 @@ export default function SingleCocktail() {
         );
         const data = await response.json();
         if (data.drinks) {
-          console.log(data.drinks);
           const {
             strDrink: name,
             strDrinkThumb: image,

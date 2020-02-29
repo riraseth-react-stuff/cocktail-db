@@ -47,7 +47,7 @@ export default function Home() {
   }, [searchTerm]);
   return (
     <main>
-      <SearchForm setSearchTerm={searchTerm}></SearchForm>
+      <SearchForm setSearchTerm={setSearchTerm}></SearchForm>
       <CocktailsList loading={loading} cocktails={cocktails}></CocktailsList>
     </main>
   );
