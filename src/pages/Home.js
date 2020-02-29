@@ -21,7 +21,7 @@ export default function Home() {
             const {
               idDrink,
               strDrink,
-              strDrinkThumbnail,
+              strDrinkThumb,
               strAlcoholic,
               strGlass
             } = drink;
@@ -29,7 +29,7 @@ export default function Home() {
             return {
               id: idDrink,
               name: strDrink,
-              image: strDrinkThumbnail,
+              image: strDrinkThumb,
               info: strAlcoholic,
               glass: strGlass
             };
